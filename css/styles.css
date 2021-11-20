@@ -1,0 +1,9 @@
+.h_img{
+  background-position: center center;
+  background-size: cover;
+  height: 120%;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:20%; 
+}
