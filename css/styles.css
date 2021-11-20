@@ -1,11 +1,35 @@
+h1{
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
 .h_img{
   background-position: center center;
   background-size: cover;
-  height: 120%;
+  height: 750px;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top:20%; 
+  padding-top:19%; 
+}
+.mouse_click{
+  margin-bottom: 100px;
+}
+.about_us{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
 .card{
   height: 100%;
