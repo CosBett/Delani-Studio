@@ -31,6 +31,17 @@ p {
   font-weight: bold;
   margin-bottom: 60px;
 }
+#services{
+  background-image:url('images/backgrounds/s_image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
 .card{
   height: 100%;
   width: 100%;
