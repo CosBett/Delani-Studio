@@ -23,6 +23,14 @@ p {
 .mouse_click{
   margin-bottom: 100px;
 }
+#mouse_click{
+  vertical-align: 100px;
+  animation:mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {vertical-align: 100px;}
+}
 .about_us{
   font-family: 'Libre Baskerville', serif;
   font-size: 28px;
@@ -32,7 +40,7 @@ p {
   margin-bottom: 60px;
 }
 #services{
-  background-image:url('images/backgrounds/s_image.jpg');
+  background-image:url('../images/backgrounds/s_image.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,12 +49,41 @@ p {
   color: white;
   text-align: center;
   padding-top: 100px;
+  margin-bottom: 60px;
 }
 #whatwedo{
   text-align: center;
 }
 #portfolio{
   text-align: center;
+}
+.contactus{
+  background-image: url("../images/backgrounds/c_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+#name,#email{
+  width: 400px;
+  background-color: transparent;
+  border-color: white;
+  height: 35px;
+}
+#subject{
+  width: 850px;
+  background-color: transparent;
+  border-color: white;
+ 
+
+}
+::placeholder {
+  color: white;
+  font-size: 20px;
 }
 .card{
   height: 100%;
