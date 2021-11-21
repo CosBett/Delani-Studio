@@ -20,17 +20,6 @@ p {
   text-align: center;
   padding-top:19%; 
 }
-.mouse_click{
-  margin-bottom: 100px;
-}
-#mouse_click{
-  vertical-align: 100px;
-  animation:mymove 5s infinite;
-  }
-  
-  @keyframes mymove {
-    50% {vertical-align: 100px;}
-}
 .about_us{
   font-family: 'Libre Baskerville', serif;
   font-size: 28px;
@@ -88,4 +77,20 @@ p {
 .card{
   height: 100%;
   width: 100%;
+}
+footer{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+#mouse_click{
+  animation: mymove 3s infinite alternate;
+  }
+@keyframes mymove { 
+  0%{
+  transform: translate(0px,100px);
+  }
+  100%{
+  transform: translate(0px,0px);
+  }
 }
