@@ -90,7 +90,7 @@ footer{
 #designdes,#productdes,#developmentdes{
   display: none;
 }
-#blank-t{
+#blank-t,#ontario-t,#yellow-t,#jim-t,#have-t,#calculator-t,#burned-t,#girraffe-t{
   background-color: white;
   padding: 70px 0;
   text-align: center;
