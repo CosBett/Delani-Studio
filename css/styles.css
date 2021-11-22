@@ -1,7 +1,7 @@
 h1{
   font-family: 'Libre Baskerville', serif;
   color: white;
-  font-size: 42px;
+  font-size: 40px;
   text-align: center;
   font-weight: bold;
 }
@@ -87,13 +87,20 @@ footer{
  position:absolute;
   
 }
-#designdes,#developmentdes,#productdes{
+#designdes,#productdes,#developmentdes{
   display: none;
 }
-/*#mouse_click{
-  animation: mymove 3s infinite alternate;
+#blank-t{
+  background-color: white;
+  padding: 70px 0;
+  text-align: center;
+  display: none;
+}
+
+#mouse_click{
+  animation: bounce 3s infinite alternate;
   }
-@keyframes mymove { 
+@keyframes bounce { 
   0%{
   transform: translate(0px,100px);
   }
