@@ -31,25 +31,10 @@ $(document).ready(function(){
      $("#product").slideUp().show();
    });
  });
-
-//   $(document).ready(function () {
-//     $("#blank").hover(function () {
-//         $("blank-t").addClass("active");  //Add the active class to the area is hovered
-//     }, function () {
-//         $("blank").addClass("not-active");
-//     });
-// });
-// $(document).ready(function(){
-//   $("#blank").(function(){
-//     $("#blank-t").show();
-//   }).mouseout(function(){
-//     $("#blank-t").hide();
-//   });
-// });
-
+ //portfolio- blank project animation 
 $("#blank").hover(
   function() {
-    $("#blank").animate({ opacity: "0.35" });
+    $("#blank").animate({ opacity: "0.3" });
     $("#blank-t").toggle("#blank");
   },
   function() {
@@ -57,6 +42,84 @@ $("#blank").hover(
     $("#blank-t").toggle("#blank");
   }
 );
+ //portfolio- ontario project animation 
+ $("#ontario").hover(
+  function() {
+    $("#ontario").animate({ opacity: "0.3" });
+    $("#ontario-t").toggle("#ontario");
+  },
+  function() {
+    $("#ontario").animate({ opacity: "1" });
+    $("#ontario-t").toggle("#ontario");
+  }
+);
+ //portfolio- yellow pyramid project animation 
+ $("#yellow").hover(
+  function() {
+    $("#yellow").animate({ opacity: "0.3" });
+    $("#yellow-t").toggle("#yellow");
+  },
+  function() {
+    $("#yellow").animate({ opacity: "1" });
+    $("#yellow-t").toggle("#yellow");
+  }
+);
+ //portfolio- jim carrey app project animation 
+ $("#jim ").hover(
+  function() {
+    $("#jim").animate({ opacity: "0.3" });
+    $("#jim-t").toggle("#jim ");
+  },
+  function() {
+    $("#jim ").animate({ opacity: "1" });
+    $("#jim-t").toggle("#jim ");
+  }
+);
+ //portfolio- Have a good day project animation 
+ $("#have").hover(
+  function() {
+    $("#have").animate({ opacity: "0.35" });
+    $("#have-t").toggle("#have");
+  },
+  function() {
+    $("#have").animate({ opacity: "1" });
+    $("#have-t").toggle("#have");
+  }
+);
+ //portfolio- calculator project animation 
+ $("#calculator").hover(
+  function() {
+    $("#calculator").animate({ opacity: "0.35" });
+    $("#calculator-t").toggle("#calculator");
+  },
+  function() {
+    $("#calculator").animate({ opacity: "1" });
+    $("#calculator-t").toggle("#calculator");
+  }
+);
+ //portfolio- burned app project animation 
+ $("#burned").hover(
+  function() {
+    $("#burned").animate({ opacity: "0.35" });
+    $("#burned-t").toggle("#burned");
+  },
+  function() {
+    $("#burned").animate({ opacity: "1" });
+    $("#burned-t").toggle("#burned");
+  }
+);
+ //portfolio- Girraffe Restaurant project animation 
+ $("#girraffe").hover(
+  function() {
+    $("#girraffe").animate({ opacity: "0.35" });
+    $("#girraffe-t").toggle("#girraffe");
+  },
+  function() {
+    $("#girraffe").animate({ opacity: "1" });
+    $("#girraffe-t").toggle("#girraffe");
+  }
+);
+
 /*$(document).ready(function(){
   $(document).ready(function(){
     $("#development").mouseenter(function(){
