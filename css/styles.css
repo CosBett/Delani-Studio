@@ -84,6 +84,13 @@ footer{
   margin-bottom: 80px;
 }
 #mouse_click{
+ position:absolute;
+  
+}
+#designdes,#developmentdes,#productdes{
+  display: none;
+}
+/*#mouse_click{
   animation: mymove 3s infinite alternate;
   }
 @keyframes mymove { 
