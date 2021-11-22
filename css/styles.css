@@ -95,6 +95,12 @@ footer{
   padding: 70px 0;
   text-align: center;
   display: none;
+  margin: 50px;
+  padding: 15px;
+  border-style:outset;
+}
+.card h4{
+  font-size: 16px;
 }
 
 #mouse_click{
