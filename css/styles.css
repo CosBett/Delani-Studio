@@ -114,3 +114,12 @@ footer{
   transform: translate(0px,0px);
   }
 }
+input{
+  color: white;
+  font-size: 23px;
+  background: transparent;
+}
+#submit-button{
+  background-color: rgba(233, 168, 104, 0.671);
+  color: blue;
+}
